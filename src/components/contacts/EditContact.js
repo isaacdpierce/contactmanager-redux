@@ -128,5 +128,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { getContact }
-)(EditContact, updateContact);
+  { getContact, updateContact }
+)(EditContact);
